@@ -22,4 +22,11 @@ public class CalculatorTest {
     }
 
 
+    @Test
+    public void testMultiply(){
+        myCalc= new Calculator();
+        assertEquals(35,myCalc.multiply(7,5));
+    }
+
+
 }
